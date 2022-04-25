@@ -6,6 +6,7 @@ public class Snack implements Comparable<Snack>, Serializable {//marker interfac
     private int artikelCode;
     private String naam;
     private float prijs;
+    private boolean omdatHetKan;
 
     public Snack() {
     }
